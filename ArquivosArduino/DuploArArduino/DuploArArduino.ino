@@ -1,14 +1,6 @@
-//#include <Arduino.h>
 const char* WIFI_SSID = "NomeDaRede";
 const char* WIFI_PASSWORD = "SenhaDaRede";
 const char* TELEGRAM_BOT_TOLKEN = "5156871866:AAH6-PqBXnS02jU8QYhif8mp1z-zy_25x9I";
-/*
-  Rui Santos
-  Complete project details at https://RandomNerdTutorials.com/telegram-control-esp32-esp8266-nodemcu-outputs/
-  
-  Project created using Brian Lough's Universal Telegram Bot Library: https://github.com/witnessmenow/Universal-Arduino-Telegram-Bot
-  Example based on the Universal Arduino Telegram Bot Library: https://github.com/witnessmenow/Universal-Arduino-Telegram-Bot/blob/master/examples/ESP8266/FlashLED/FlashLED.ino
-*/
 
 #ifdef ESP32
   #include <WiFi.h>
